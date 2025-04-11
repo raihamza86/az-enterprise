@@ -1,39 +1,46 @@
 import React from "react";
+import img1 from './../../../public/serv1.jpg'
+import img2 from './../../../public/serv2.jpg'
+import img3 from './../../../public/serv3.jpg'
+import img4 from './../../../public/serv4.jpg'
+import img5 from './../../../public/serv5.jpg'
+import img6 from './../../../public/serv6.jpg'
+
 
 const ServiceData = [
   {
     id: 1,
-    img: "/serv1.jpg",
+    img: img1,
     title: "Web Optimize",
     desc: "This generator uses a dictionary of Latin words to construct",
   },
   {
     id: 2,
-    img: "/serv2.jpg",
+    img: img2,
     title: "Tech Support Pro",
     desc: "This generator uses a dictionary of Latin words to construct",
   },
   {
     id: 3,
-    img: "/serv3.jpg",
+    img: img3,
     title: "Web Optimize",
     desc: "This generator uses a dictionary of Latin words to construct",
   },
   {
     id: 4,
-    img: "/serv4.jpg",
+    img: img4,
     title: "Web Optimize",
     desc: "This generator uses a dictionary of Latin words to construct",
   },
   {
     id: 5,
-    img: "/serv5.jpg",
+    img: img5,
     title: "Tech Support Pro",
     desc: "This generator uses a dictionary of Latin words to construct",
   },
   {
     id: 6,
-    img: "/serv6.jpg",
+    img: img6,
     title: "Web Optimize",
     desc: "This generator uses a dictionary of Latin words to construct",
   },
