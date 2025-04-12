@@ -1,6 +1,6 @@
 const Hero = () => {
     return (
-        <div className="w-full bg-gradient-to-b from-[#A0D7FE] to-[#F6FBFF] flex flex-col md:flex-row items-center justify-between py-8">
+        <div className="w-full bg-gradient-to-b from-[#A0D7FE] to-[#F6FBFF] flex flex-col md:flex-row items-center justify-between pt-28">
             {/* Left Content */}
             <div className="max-w-xl space-y-6 md:px-16 px-6">
                 <h2 className="text-[#317EFE] text-lg font-semibold">Smart Solutions</h2>

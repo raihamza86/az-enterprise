@@ -34,14 +34,14 @@ const AboutUs = () => {
             </div>
 
             {/* Right Visuals */}
-            <div className="relative w-full md:w-1/2 h-[400px] md:h-screen overflow-hidden mt-10 md:mt-0 flex items-center justify-center">
+            <div className="relative w-full md:w-1/2 h-[400px] md:h-screen overflow-hidden mt-10 md:mt-0 flex items-center justify-center p-4">
                 {/* Main Foreground Image */}
-                <div className="z-10">
+                <div className="z-10 w-full">
                     <img src="/home/img.jpg" alt="main" className="max-w-full rounded-t-full" />
                 </div>
 
                 {/* Rotating Image beside main image */}
-                <div className="absolute top-1/4 right-[-20px] transform -translate-y-1/2">
+                <div className="absolute top-1/4 lg:right-[-30px] xl:right-[60px] right-[-40px] transform -translate-y-1/2">
                     <img
                         src="/home/rotate.png"
                         alt="rotating"
