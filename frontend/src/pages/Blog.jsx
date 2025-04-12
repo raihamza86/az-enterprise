@@ -1,11 +1,13 @@
-import Hero from "../components/blog/Hero";
+import BlogHero from "../components/blog/BlogHero";
+import BlogSecond from "../components/blog/BlogSecond";
 
 const Blog = () => {
-    return (
-        <>
-            <Hero />
-        </>
-    );
-}
+  return (
+    <>
+      <BlogHero />
+      <BlogSecond/>
+    </>
+  );
+};
 
 export default Blog;

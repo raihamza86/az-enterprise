@@ -7,6 +7,7 @@ const CategoryDetail = () => {
   const location = useLocation();
   const { img, title, desc } = location.state || {};
 
+
   return (
     <div className="w-full max-w-7xl mx-auto min-h-screen flex flex-col md:flex-row justify-between items-start gap-10 mt-20 px-6 md:px-10">
       {/* Sidebar */}

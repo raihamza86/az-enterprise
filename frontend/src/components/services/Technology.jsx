@@ -45,6 +45,7 @@ const Technology = () => {
 
   const handleReadMore = (item) => {
     navigate("/categoryDetail", { state: item });
+
   };
 
   return (
