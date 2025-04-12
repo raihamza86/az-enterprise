@@ -26,10 +26,9 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className={`sticky ${scrolled ? 'top-0' : 'top-10'} left-0 z-20 transition-all duration-300`}>
+        <div className={`fixed inset-x-0 ${scrolled ? 'top-0' : 'top-4'} z-20 transition-all duration-300 top-0`}>
             <div
-                className={`bg-white shadow-md ${scrolled ? 'w-full rounded-none' : 'w-[80%] rounded-4xl'
-                    } mx-auto flex justify-between items-center py-6 px-6 md:px-16 transition-all duration-300`}
+                className={`${scrolled ? 'w-full rounded-none' : 'w-[80%] rounded-4xl'} mx-auto flex justify-between items-center py-6 px-6 md:px-16 shadow-md bg-white transition-all duration-300`}
             >
                 {/* Logo */}
                 <div>
