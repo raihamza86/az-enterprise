@@ -10,7 +10,12 @@ import Services from "./pages/Services";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import PageNotFound from "./components/PageNotFound";
+<<<<<<< HEAD
 import TeamDetails from "./pages/TeamDetails";
+=======
+import DetailServic from "./pages/DetailServic";
+import CategoryDetail from "./components/detailServices/CategoryDetail";
+>>>>>>> 364a568954b2e00e0d6144bac9aa2b521da73192
 
 const MainLayout = () => (
   <div className="lg:mx-auto lg:max-w-[1536px]">
@@ -32,6 +37,9 @@ const router = createBrowserRouter([
       { path: "/team", element: <Team /> },
       { path: "/teamdetails/:id", element: <TeamDetails /> },
       { path: "/contact-us", element: <Contact /> },
+      {path:"/detailservic",element:<DetailServic/>},
+      // its just component path 
+      {path:"/categoryDetail",element:<CategoryDetail/>}
     ],
   },
   { path: "*", element: <PageNotFound /> },
