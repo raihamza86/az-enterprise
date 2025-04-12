@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import PageNotFound from "./components/PageNotFound";
+import TeamDetails from "./pages/TeamDetails";
 
 const MainLayout = () => (
   <div className="lg:mx-auto lg:max-w-[1536px]">
@@ -29,6 +30,7 @@ const router = createBrowserRouter([
       { path: "/projects", element: <Projects /> },
       { path: "/services", element: <Services /> },
       { path: "/team", element: <Team /> },
+      { path: "/teamdetails/:id", element: <TeamDetails /> },
       { path: "/contact-us", element: <Contact /> },
     ],
   },
